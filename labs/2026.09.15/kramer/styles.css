@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 30px;
+}
