@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 24px;
+  padding: 16px;
+  background: #f3f3f3;
+}
+
+code {
+  font-size: 16px;
+}
+
+.danger {
+  background: #e98585;
+  border: 2px solid #d32f2f;
+  color: white;
+}
+
+.danger:hover {
+  background: #b71c1c;
+  color: white;
+}
+
+.spinner {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 32px;
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
