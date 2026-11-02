@@ -137,6 +137,7 @@ body {
 
 .person__buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
   margin-top: 30px;
 }
@@ -172,6 +173,23 @@ body {
   color: white;
   background: var(--primary);
   border-color: var(--primary);
+}
+
+.button--event-loop {
+  --event-loop-accent: #b9ed78;
+  color: #101310;
+  background: var(--event-loop-accent);
+  border-color: var(--event-loop-accent);
+}
+
+.button--event-loop:hover,
+.button--event-loop:focus-visible {
+  border-color: var(--event-loop-accent);
+  box-shadow: 0 8px 18px rgba(185, 237, 120, 0.28);
+}
+
+.button--event-loop:focus-visible {
+  outline-color: #6b9b3f;
 }
 
 /* Sections */
